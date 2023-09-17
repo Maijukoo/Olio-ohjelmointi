@@ -1,7 +1,7 @@
 #ifndef CHEF_H
 #define CHEF_H
 #include <iostream>
-#include "italianchef.h"
+
 
 using namespace std;
 
@@ -9,6 +9,7 @@ class chef
 {
 public:
     chef(string);
+    ~chef();
     void makeSalad();
     void makeSoup();
 

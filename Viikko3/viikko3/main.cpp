@@ -10,9 +10,8 @@ int main()
     master.makeSalad();
     master.makeSoup();
 
-    italianchef jr("Hans Valimaki");
+    italianchef jr("Anthony Bourdain");
     jr.makeSalad();
-
-
-
+    jr.makeSoup();
+    jr.makePasta();
 }
