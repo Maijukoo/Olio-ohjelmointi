@@ -13,5 +13,5 @@ int main()
     italianchef jr("Anthony Bourdain");
     jr.makeSalad();
     jr.makeSoup();
-    jr.makePasta();
+    jr.makePasta(100,200);
 }
