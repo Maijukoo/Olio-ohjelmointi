@@ -10,9 +10,10 @@ class Katutaso : public Kerros
 {
 public:
     Katutaso();
-    void maaritaAsunnot();
+    Asunto as1;
+    Asunto as2;
+    virtual void maaritaAsunnot(void) override;
     double laskeKulutus(double);
-    Asunto as1, as2;
 };
 
 #endif // KATUTASO_H

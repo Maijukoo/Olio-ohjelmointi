@@ -1,7 +1,6 @@
 #ifndef KERROSTALO_H
 #define KERROSTALO_H
 #include <iostream>
-#include "asunto.h"
 #include "kerros.h"
 #include "katutaso.h"
 using namespace std;
@@ -15,7 +14,9 @@ public:
 
 private:
     Katutaso eka;
-    Kerros toka, kolmas;
+    Kerros toka;
+    Kerros kolmas;
+
 };
 
 #endif // KERROSTALO_H
